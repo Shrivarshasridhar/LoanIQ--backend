@@ -69,7 +69,7 @@ pipeline.fit(X, y)
 # --------------------------------
 # SAVE MODEL
 # --------------------------------
-with open("model/loan_model.pkl", "wb") as file:
+with open("model/train_model.pkl", "wb") as file:
     pickle.dump(pipeline, file)
 
 print("✅ Model trained successfully with improved dataset and scaling")
