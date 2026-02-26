@@ -3,6 +3,6 @@ flask-cors
 gunicorn
 pymongo
 python-dotenv
-scikit-learn==1.8.0
+scikit-learn==1.5.2
 numpy
 pandas
